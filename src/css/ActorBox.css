@@ -1,0 +1,41 @@
+.actor {
+  background-color: #333;
+  padding: 15px;
+  position: relative;
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+  border-radius: 3px;
+  max-width: 150px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.actor:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-color: #444;
+}
+
+.actor__info {
+  color: #fff;
+  margin-top: 15px;
+}
+.actor__name {
+  color: #d3d3d3;
+  font-size: 12px;
+}
+
+.actor__rollname {
+  margin-top: 5px;
+}
+
+.actor__image {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.actor__image--outer {
+  width: 150px;
+}
